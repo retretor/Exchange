@@ -69,7 +69,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun convert() {
-        val currency_сс: String = currency_2?.text?.toString()?.trim()!!
+        //val currency_сс: String = currency_2?.text?.toString()?.trim()!!
+        val currency_сс: String = "USD"
 
 
         /*GlobalScope.launch {
@@ -139,7 +140,7 @@ class MainActivity : AppCompatActivity() {
 
     fun getCurrencyName(currency_сс: String): String {
         var currency_name: String = ""
-        for (i in 0 until currencys_names.size) {
+        for (i in 0 until currencys_cc.size) {
             if (currencys_cc[i].equals(currency_сс)) {
                 currency_name = currencys_names[i]
             }
@@ -149,7 +150,7 @@ class MainActivity : AppCompatActivity() {
 
     fun getCurrencyValue(currency_сс: String): Double {
         var currency_value: Double = 0.0
-        for (i in 0 until currencys_values.size) {
+        for (i in 0 until currencys_cc.size) {
             if (currencys_cc[i].equals(currency_сс)) {
                 currency_value = currencys_values[i]
             }
