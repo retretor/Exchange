@@ -9,9 +9,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-
-
-
-
+    fun convert(value: Double, from: String, to: String): Double {
+        val fromRate = getRate(from)
+        val toRate = getRate(to)
+        return value * fromRate / toRate
+    }
     
 }
