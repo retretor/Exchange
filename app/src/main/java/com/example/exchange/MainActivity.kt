@@ -84,8 +84,6 @@ class MainActivity : AppCompatActivity() {
 
 
     }
-<<<<<<< Updated upstream
-=======
 
     fun getCurrencyName(currency_сс: String): String {
 
@@ -120,5 +118,5 @@ class MainActivity : AppCompatActivity() {
         }
         return currency_value
     }
->>>>>>> Stashed changes
+
 }
