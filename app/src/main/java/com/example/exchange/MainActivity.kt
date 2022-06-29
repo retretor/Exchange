@@ -15,7 +15,4 @@ class MainActivity : AppCompatActivity() {
         return value * fromRate / toRate
     }
     
-    fun new() {
-        println("Nothing")
-    }
 }
