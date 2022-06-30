@@ -57,9 +57,9 @@ class MainActivity : AppCompatActivity() {
 
         currency_1 = findViewById(R.id.currency_1)
         currency_2 = findViewById(R.id.currency_2)
-        convert_btn = findViewById(R.id.convert_btn)
+        //convert_btn = findViewById(R.id.convert_btn)
         currency_1_value = findViewById(R.id.currency_1_value)
-        currency_2_value = findViewById(R.id.currency_2_value)
+        //currency_2_value = findViewById(R.id.currency_2_value)
         cost = findViewById(R.id.cost)
 
         CoroutineScope(Dispatchers.IO).launch {

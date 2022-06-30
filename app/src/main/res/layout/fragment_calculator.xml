@@ -30,6 +30,7 @@
             android:contentDescription="@string/usd"
             android:scrollbarStyle="outsideInset"
             android:scrollbars="vertical"
+            android:entries="@array/currency_codes"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -43,6 +44,7 @@
             android:contentDescription="@string/uah"
             android:scrollbarStyle="outsideInset"
             android:scrollbars="vertical"
+            android:entries="@array/currency_codes"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/currency_2" />
 
