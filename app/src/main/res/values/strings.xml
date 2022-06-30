@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Exchange</string>
+    <string name="calculator_name">Calculator</string>
+    <string name="currency_name">Exchange Rates</string>
+    <string name="uah">UAH</string>
+    <string name="usd">USD</string>
+    <string name="inverseButton">Inverse Button</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

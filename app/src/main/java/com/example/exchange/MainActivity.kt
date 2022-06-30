@@ -8,6 +8,10 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
+import androidx.viewpager2.widget.ViewPager2
+import com.example.design2.PageViewAdapter
+import com.google.android.material.tabs.TabLayout
+import com.google.android.material.tabs.TabLayoutMediator
 import kotlinx.coroutines.*
 
 
@@ -34,12 +38,22 @@ class MainActivity : AppCompatActivity() {
     private var currencys_values = mutableListOf<Double>()
     private var currencys_cc = mutableListOf<String>()
 
+    var tabTitle = arrayOf("Calculator", "Exchange rates")
 
-
-    @DelicateCoroutinesApi
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        //слайдер-менюшка
+        var pager = findViewById<ViewPager2>(R.id.view_pager)
+        var tl = findViewById<TabLayout>(R.id.tab_layout)
+        pager.adapter = PageViewAdapter(supportFragmentManager, lifecycle)
+
+        TabLayoutMediator(tl, pager) {
+                tab, position ->
+            tab.text = tabTitle[position]
+        }.attach()
+
 
         currency_1 = findViewById(R.id.currency_1)
         currency_2 = findViewById(R.id.currency_2)

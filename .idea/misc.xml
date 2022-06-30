@@ -4,6 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidCode/Exchange/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/MyApps/Exchange/app/src/main/res/drawable/button_background.xml" value="0.2265" />
+        <entry key="..\:/MyApps/Exchange/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/MyApps/Exchange/app/src/main/res/layout/currency_info.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyApps/Exchange/app/src/main/res/layout/fragment_calculator.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyApps/Exchange/app/src/main/res/layout/fragment_exchange_rates.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

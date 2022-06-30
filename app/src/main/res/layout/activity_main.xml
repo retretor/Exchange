@@ -1,82 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mainColor1"
+        tools:context=".MainActivity">
 
-    <TextView
-            android:layout_width="103dp"
-            android:layout_height="56dp"
-            android:text="UAH"
-            app:layout_constraintBottom_toBottomOf="parent"
+    <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:background="@color/mainColor2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintHorizontal_bias="0.191"
-            app:layout_constraintVertical_bias="0.157"
-            android:id="@+id/currency_1"
-            android:layout_above="@+id/currency_2"
-            android:layout_marginBottom="272dp" />
+            app:tabSelectedTextColor="@color/mainColor3"
+            app:tabTextColor="?android:attr/textColorTertiaryInverse">
 
-    <TextView
-            android:layout_width="103dp"
-            android:layout_height="56dp"
-            android:text="USD"
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/view_pager"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:backgroundTintMode="screen"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintHorizontal_bias="0.191"
-            app:layout_constraintVertical_bias="0.157"
-            android:id="@+id/currency_2"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="134dp" />
+            app:layout_constraintTop_toBottomOf="@+id/tab_layout" />
 
-    <Button
-            android:text="Convert"
-            android:layout_width="148dp"
-            android:layout_height="84dp"
-            android:id="@+id/convert_btn"
-            android:layout_alignParentEnd="true"
-            android:layout_marginEnd="36dp"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="309dp" />
-
-    <EditText
-            android:layout_width="244dp"
-            android:layout_height="90dp"
-            android:inputType="textPersonName"
-            android:ems="10"
-            android:id="@+id/currency_1_value"
-            android:layout_alignParentEnd="true"
-            android:layout_marginEnd="18dp"
-            android:layout_marginBottom="450dp"
-            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
-            android:text="123"
-            android:layout_alignParentBottom="true" />
-
-    <TextView
-            android:layout_width="195dp"
-            android:layout_height="97dp"
-            android:id="@+id/currency_2_value"
-            android:layout_alignParentEnd="true"
-            android:layout_marginEnd="40dp"
-            android:text="123"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="101dp" />
-
-    <EditText
-            android:layout_width="132dp"
-            android:layout_height="59dp"
-            android:inputType="textPersonName"
-            android:text="2"
-            android:ems="10"
-            android:id="@+id/cost"
-            android:layout_alignParentEnd="true"
-            android:layout_marginEnd="279dp"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="321dp" />
-
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
