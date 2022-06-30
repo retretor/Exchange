@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/AndroidCode/Exchange/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidCode/Exchange/app/src/main/res/drawable-v24/ic_dashboard_black_24dp.xml" value="0.3605" />
+        <entry key="..\:/AndroidCode/Exchange/app/src/main/res/drawable-v24/ic_home_black_24dp.xml" value="0.3605" />
+        <entry key="..\:/AndroidCode/Exchange/app/src/main/res/drawable-v24/ic_notifications_black_24dp.xml" value="0.3605" />
+        <entry key="..\:/AndroidCode/Exchange/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/AndroidCode/Exchange/app/src/main/res/layout/activity_rates.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidCode/Exchange/app/src/main/res/layout/fragment_calculate.xml" value="0.18802083333333333" />
+        <entry key="..\:/AndroidCode/Exchange/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2790328973444312" />
       </map>
     </option>
   </component>

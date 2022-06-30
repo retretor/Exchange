@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Exchange</string>
+
+
+    <string name="input_value_currency">0</string>
+    <string name="output_value_currency">0</string>
+    <string name="cost">Cost</string>
+    <string name="convert_btn">Convert</string>
+    <string name="rates_btn">Rates</string>
+    <string name="calculate_btn">Calculate</string>
+
+    <string name="usd">USD</string>
+    <string name="eur">EUR</string>
+    <string name="uah">UAH</string>
 </resources>
