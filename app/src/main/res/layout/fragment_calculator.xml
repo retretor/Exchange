@@ -18,23 +18,28 @@
             android:scrollbarStyle="outsideInset"
             android:scrollbars="vertical"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:entries="@array/bank_names"
+            />
 
     <Spinner
-            android:id="@+id/currency_2"
+            android:id="@+id/currency_1"
             android:layout_width="155dp"
             android:layout_height="50dp"
             android:layout_marginStart="20dp"
             android:layout_marginTop="150dp"
             android:backgroundTint="@color/white"
-            android:contentDescription="@string/usd"
+            android:contentDescription="@string/uah"
             android:scrollbarStyle="outsideInset"
             android:scrollbars="vertical"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+
+            android:entries="@array/currency_codes"
+            />
 
     <Spinner
-            android:id="@+id/currency_1"
+            android:id="@+id/currency_2"
             android:layout_width="155dp"
             android:layout_height="50dp"
             android:layout_marginStart="20dp"
@@ -44,7 +49,9 @@
             android:scrollbarStyle="outsideInset"
             android:scrollbars="vertical"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/currency_2" />
+            app:layout_constraintTop_toBottomOf="@+id/currency_1"
+            android:entries="@array/currency_codes"
+            />
 
     <EditText
             android:id="@+id/currency_1_value"
@@ -76,7 +83,7 @@
 
 
     <EditText
-            android:id="@+id/cost"
+            android:id="@+id/currency_2_value"
             android:layout_width="170dp"
             android:layout_height="50dp"
             android:layout_marginTop="100dp"

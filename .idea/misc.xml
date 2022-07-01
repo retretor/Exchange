@@ -9,6 +9,8 @@
         <entry key="..\:/AndroidCode/Exchange/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/AndroidCode/Exchange/app/src/main/res/layout/activity_rates.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidCode/Exchange/app/src/main/res/layout/fragment_calculate.xml" value="0.18802083333333333" />
+        <entry key="..\:/AndroidCode/Exchange/app/src/main/res/layout/fragment_calculator.xml" value="0.33" />
+        <entry key="..\:/AndroidCode/Exchange/app/src/main/res/layout/fragment_exchange_rates.xml" value="0.2916666666666667" />
         <entry key="..\:/AndroidCode/Exchange/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2790328973444312" />
       </map>
     </option>
